@@ -4,9 +4,9 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-white w-full shadow-sm dark:bg-gray-800 mt-auto">
+    <footer className="bg-white w-full shadow-sm dark:bg-gray-800 sticky bottom-0">
       <div className="mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 ">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 gap-5">
           2025
           <a href="https://www.themoviedb.org/" className="hover:underline">
             The Movies

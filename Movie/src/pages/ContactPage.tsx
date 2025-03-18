@@ -1,6 +1,6 @@
 const ContactPage = () => {
   return (
-    <div className="py-2 px-4 mx-auto max-w-screen-md mt-30">
+    <div className="py-2 px-4 mx-auto min-h-screen max-w-screen-md mt-30">
       <h2
         className="mb-4 text-4xl font-extrabold  
                            text-center text-gray-900"
@@ -8,7 +8,7 @@ const ContactPage = () => {
         Contact Us
       </h2>
       <p
-        className="mb-4 font-light text-left  
+        className="mb-4 font-light text-center 
                           text-gray-500 sm:text-xl"
       >
         Got a issue? Want to send feedback? Let us know.
