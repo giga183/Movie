@@ -5,7 +5,7 @@ type Props = {
   category: Category
 }
 
-const Cards: React.FC<Props> = ({ category }) => {
+const TopRatedCard: React.FC<Props> = ({ category }) => {
   return (
     <div className='max-w-sm flex bg-white border border-gray-200 rounded-2xl shadow-sm dark:bg-gray-900 dark:border-gray-700'>
       <a href='#'>
@@ -40,4 +40,4 @@ const Cards: React.FC<Props> = ({ category }) => {
   )
 }
 
-export default Cards
+export default TopRatedCard
